@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Rock, Paper, Scissor</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="choose">
+        <div class="options" id="rock">
+          <img src="Image/rock.png" alt="" />Rock
+        </div>
+        <div class="options" id="paper">
+          <img src="Image/paper.png" alt="" />Paper
+        </div>
+        <div class="options" id="scissor">
+          <img src="Image/scissor.png" alt="" />Scissor
+        </div>
+      </div>
+      <div id="result">Choose your move</div>
+      <div class="scoreboard">
+        <div class="scoreboard-items">
+          <div class="scoreboard-names">Computer</div>
+          <div class="score" id="computer-score">0</div>
+        </div>
+        <div class="scoreboard-items">
+          <div class="scoreboard-names">You</div>
+          <div class="score" id="user-score">0</div>
+        </div>
+      </div>
+    </div>
+    <script src="JavaScript/script.js"></script>
+  </body>
+</html>
